@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>Footbal Boots Shop</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header" id="header">
+      <nav>
+        <a class="top-nav" href="#nike">Nike</a>
+        <a class="top-nav" href="#adidas">Adidas </a>
+        <a class="top-nav" href="#contact">contact</a>
+      </nav>
+      <i class="fas fa-bars mobile-menu"></i>
+    </header>
+<!-- where do you want to link to -->
+    <!-- Page Main Content -->
+    <main id="main-content">
+      <!-- Slideshow Container -->
+      <div class="slideshow-container">
+       <!-- you can only connect your local repositary to one remote remote
+      repository, so if you have linked a remote repository already, you cannot link to another remote 
+    repository
+  when you try to do that this is the error you get
+if you tried connecting one and it does not succeed, then you have to delete the .git folder in your project
+and initial a new one -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 10</div>
+          <img src="images/shop2.jpg" alt="Football Shoes Company" />
+          <div class="caption">Football Shoes Company</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="images/shop1.png" alt="Football Shoes Company" />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">15 / 30</div>
+          <img src="images/shop3.png" alt="Football Shoes Company" />
+
+        </div>
+        <a class="prev" href="#">&#10085;</a>
+        <a class="next" href="#">&#10035;</a>
+        <div class="dots-container" style="text-align: center">
+          <span class="dot" data="1"></span>
+          <span class="dot" data="2"></span>
+          <span class="dot" data="3"></span>
+        </div>
+      </div>
+      <article id="boot" class="boot-section">
+        <h1 id="adidas">Adidas</h1>
+        <div class="card-group">
+          <div class="card">
+            <img src="images/adidas2.png" alt="" />
+            <h2>Yellow boot</h>
+            
+          </div>
+          <div class="card">
+            <img
+              src="images/adidas1.png"
+              alt=""
+            />
+            <h2>Green boot</h2>
+            
+          </div>
+          <div class="card">
+            <img
+              src="images/adidas3.jpeg"
+              alt=""
+              
+            />
+            <h2>black boot</h2>
+          </div>
+          <div class="card">
+            <img
+              src="images/adidas4.jpeg"
+              alt=""
+            />
+            <h2>blue/black boot</h2>
+  
+          </div>
+          <div class="card">
+            <img
+              src="images/adidas6.jpeg"
+              alt=""
+            />
+            <h2>black boot</h2>
+          </div>
+        </div>
+      </article>
+      <article id="boot" class="boot-section">
+
+        <h1 id="nike">Nike</h1>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="images/nike2.png"
+              alt=""
+            />
+            <h2>White/black boot </h2>
+          </div>
+          <div class="card">
+            <img
+              src="images/nike4.jpeg"
+              alt=""
+            />
+            <h2>White boot</h2>
+          </div>
+          <div class="card">
+            <img
+              src="images/nike5.jpeg"
+              alt=""
+            />
+            <h2>Black/pink boot</h2>
+          </div>
+        </div>
+      </article>
+      <article id="contact" class="contact-section">
+        <form action="index.html" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="John Doe" />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="bootsfootball@email.com"
+          />
+          <label for="message">Message:</label>
+          <textarea
+            type="text"
+            name="message"
+            id="message"
+            rows="5"
+            cols="40"
+          ></textarea>
+          <input id="submit-btn" type="submit" value="Submit" />
+        </form>
+      </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2021 football boots shop</p>
+    </footer>
+    <!-- Local Script File -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
